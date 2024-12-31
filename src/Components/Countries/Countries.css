@@ -1,0 +1,11 @@
+.countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+.visited {
+    background-color: cadetblue;
+}
+.flags_container img{
+    width: 150px;
+}
